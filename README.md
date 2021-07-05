@@ -7,11 +7,15 @@ user selects a cat, it should look like this. The user should also have the
 ability to unselect a cat. Once the user has selected a clowder (a group of 3
 cats), a function of your own implementation should provide a response to tell
 you whether the one selected is a valid clowder like the one in the
-representative the endpoint below: GET
-http://quantcats.herokuapp.com/clowder?cat=<id1>&cat=<id2>&cat=<id3> Example:
-http://quantcats.herokuapp.com/clowder?cat=1ttg&cat=2wsb&cat=3brr
+representative the endpoint below: 
+GET _http://quantcats.herokuapp.com/clowder?cat=<id1>&cat=<id2>&cat=<id3>_ Example:
 
---{ valid: true, id: "1ttg,2wsb,3brr" }
+  **http://quantcats.herokuapp.com/clowder?cat=1ttg&cat=2wsb&cat=3brr**
+
+{ 
+  valid: true, 
+  id: "1ttg,2wsb,3brr" 
+}
 
 ## SOLUTION
 
